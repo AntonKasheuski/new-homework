@@ -1,0 +1,74 @@
+.message {
+    display: grid;
+    grid-template-areas:
+            "a ta n ti"
+            "a ta te ti";
+    grid-template-rows: 30px 30px;
+    grid-template-columns: 50px 15px 200px 60px;
+    width: 200px;
+    background-color: greenyellow;
+}
+
+.avatar {
+    grid-area: a;
+    display: grid;
+    align-items: end;
+    justify-content: end;
+}
+
+.avatar img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.name {
+    grid-area: n;
+    display: grid;
+    align-items: center;
+    background-color: black;
+    color: pink;
+    border-top-left-radius: 7px;
+}
+
+.text {
+    grid-area: te;
+    display: grid;
+    align-items: center;
+    background-color: black;
+    color: white;
+    word-wrap: break-word;
+}
+
+.tail1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 15px;
+    height: 60px;
+    background-color: greenyellow;
+    border-bottom-right-radius: 15px;
+    z-index: 2;
+}
+
+.tail2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 15px;
+    height: 60px;
+    background-color: black;
+    z-index: 1;
+}
+
+.time {
+    grid-area: ti;
+    display: grid;
+    align-items: end;
+    justify-content: center;
+    background-color: black;
+    color: green;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}

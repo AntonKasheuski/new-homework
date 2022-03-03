@@ -1,0 +1,8 @@
+.slider {
+    display: flex;
+    flex-direction: row;
+}
+
+.span {
+    width: 20px;
+}

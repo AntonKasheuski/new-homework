@@ -1,0 +1,33 @@
+.superInput {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 320px;
+    padding: 8px;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+    margin-right: 8px;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.superInputError {
+    composes: superInput;
+    border: 1px solid red;
+}
+
+.superInput:focus {
+     box-shadow:  inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+ }
+
+.error {
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    color: red;
+}

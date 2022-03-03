@@ -1,0 +1,42 @@
+.addNameClass {
+    display: grid;
+    grid-template-areas:
+        "i a c"
+        "e e e";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 250px 50px 10px;
+    align-items: center;
+    padding: 5px;
+}
+
+.inputCorrect {
+    grid-area: i;
+    display: grid;
+    width: 250px;
+    border: 1px solid green;
+}
+
+.inputError {
+    grid-area: i;
+    display: grid;
+    width: 250px;
+    border: 1px solid red;
+}
+
+.add {
+    grid-area: a;
+    display: grid;
+}
+
+.count {
+    grid-area: c;
+    display: grid;
+    padding: 5px;
+}
+
+.error {
+    grid-area: e;
+    display: grid;
+    color: red;
+    padding: 5px;
+}

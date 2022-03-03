@@ -1,0 +1,32 @@
+.clockStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    border: 2px solid #b4b4b4;
+    border-radius: 20px;
+    margin-left: 50px;
+    background-color: #deecff;
+
+}
+
+.timeAndDate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 25px;
+    background-color: #eeeeef;
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+    border: 1px solid #b4b4b4;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 117px;
+    margin: 5px 0 5px 0;
+}

@@ -1,0 +1,45 @@
+.headerHideStyle {
+    width: 100%;
+    overflow: hidden;
+    margin-left: -232px;
+    animation-name: headerHide;
+    animation-duration: 0.5s;
+}
+
+.headerShowStyle {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 5px;
+    animation-name: headerShow;
+    animation-duration: 0.5s;
+}
+
+@keyframes headerHide {
+    from {
+        margin-left: 5px;
+    }
+    to {
+        margin-left: -232px;
+    }
+}
+
+@keyframes headerShow {
+    from {
+        margin-left: -232px;
+    }
+    to {
+        margin-left: 5px;
+    }
+}
+
+.activeLink {
+    color: white;
+    text-decoration: none;
+    background-color: #0c1e8f;
+    border-radius: 3px;
+}
+
+.item {
+    color: black;
+    text-decoration: none;
+}
