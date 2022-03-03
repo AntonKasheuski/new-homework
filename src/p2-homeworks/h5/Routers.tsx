@@ -20,7 +20,7 @@ function Routers() {
 
             {/*в начале мы попадаем на страницу '/' и переходим сразу на страницу PRE_JUNIOR*/}
             {/*exact нужен чтоб указать полное совподение (что после '/' ничего не будет)*/}
-            <Route path={'/my-homework'} element={<Navigate replace to={PATH.PRE_JUNIOR}/>}/>
+            <Route path={''} element={<Navigate replace to={PATH.PRE_JUNIOR}/>}/>
 
             <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
             <Route path={PATH.JUNIOR} element={<Junior/>}/>
